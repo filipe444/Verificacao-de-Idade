@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: font1;
+    src: url(KGSummerSunshineShadow.ttf);
+}
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    font-family: font1;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 5px 4px 4px;
+}
+
+p{
+    font-family: font1;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: white 5px 4px 4px;
+}
+
+iframe{
+    border: solid 10px;
+}
+
+footer{
+    margin-top: 1em;
+    color: rgb(0, 255, 242);
+    font-family: font1;
+    background-color: rgba(0, 0, 0, 0.884);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: white -4px 2px 2px;
+}
+
+@media all and (max-width: 780px){
+    h1{
+        font-size: 60px;
+    }
+
+    iframe{
+        height: 200px;
+        width: 353px;
+    }
+}

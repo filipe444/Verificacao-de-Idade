@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: font1;
+    src: url(KGSummerSunshineShadow.ttf);
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/08/00/40/emoji-4828792_1280.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: font1;
+    margin-left: 7em;
+    margin-top: -3px;
+    text-align: center;
+    font-size: 45px;
+    color: red;
+    text-shadow: black 5px 4px 4px;
+}
+
+img{
+    margin-left: 46em;
+}
+
+footer{
+    margin-top: 1em;
+    color: red;
+    font-family: font1;
+    background-color: rgba(0, 0, 0, 0.76);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: white -4px 2px 2px;
+}
+
+@media all and (max-width: 780px){
+    h1{
+        font-size: 20px;
+        margin-left: 0em;
+        background-color: black;
+    }
+
+    img{
+        margin-top: 25em;
+        margin-left: 8em;
+        height: 100px;
+    }
+
+    body{
+        background-size: 120%;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+}
